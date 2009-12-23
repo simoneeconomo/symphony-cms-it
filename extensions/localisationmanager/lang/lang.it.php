@@ -56,7 +56,7 @@
 		'Si &egrave; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' => 
-		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%2$s">Visualizza tutte le sorgenti dati</a>',
+		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
 
 		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data source</a>' => 
 		'Sorgente dati creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
@@ -74,7 +74,7 @@
 		'Nome',
 
 		'Source' => 
-		'Sorgente dati',
+		'Fonte',
 
 		'System' => 
 		'Sistema',
@@ -281,7 +281,7 @@
 		'Non &egrave; stato possibile cancellare <code>%s</code>. Controlla i permessi.',
 
 		'This is a required field' => 
-		'Questo campo è obbligatorio',
+		'Questo campo &egrave; obbligatorio.',
 
 		'XML is invalid' => 
 		'XML non valido',
@@ -302,7 +302,7 @@
 		'Dev\'essere definito un numero di pagina',
 
 		'A Data source with the name <code>%s</code> name already exists' => 
-		'Una sorgente dati chiamata <code>%s</code> &egrave; gi&agrve; stata definita',
+		'Una sorgente dati chiamata <code>%s</code> &egrave; gi&agrave; stata definita.',
 
 		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
 		'Non &grave; stato possibile creare la sorgente dati in <code>%s</code>. Controlla i permessi.',
@@ -311,7 +311,7 @@
 		'Evento modificato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
 
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-	    'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
+		'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
 
 		'Filter Rules' => 
 		'Regole per il filtraggio',
@@ -341,7 +341,7 @@
 		'Elimina questo evento',
 
 		'An Event with the name <code>%s</code> name already exists' => 
-		"Un evento chiamato <code>%s</code> &egrave; gi&agrave; stato definito",
+		"Un evento chiamato <code>%s</code> &egrave; gi&agrave; stato definito.",
 
 		'Success and Failure XML Examples' => 
 		'Output XML',
@@ -428,7 +428,7 @@
 		'Nessun risultato trovato.',
 
 		'With Selected...' => 
-		'Con i selezionati...',
+		'Ai selezionati...',
 
 		'Apply' => 
 		'Applica',
@@ -440,7 +440,7 @@
 		'Pagina',
 
 		'Body is a required field.' => 
-		'Il corpo &egrave; un campo obbligatorio',
+		'Il corpo &egrave; un campo obbligatorio.',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
 		'Questo documento non &egrave; ben formato. &Egrave; stato restituito il seguente errore: <code>%s</code>',
@@ -476,7 +476,7 @@
 		'Elimina questa pagina',
 
 		'Title is a required field' => 
-		'Il titolo &egrave; un campo obbligatorio',
+		'Il titolo &egrave; un campo obbligatorio.',
 
 		'An index type page already exists.' => 
 		"Una pagina di tipo \'index\' &egrave; gi&agrave; stata definita.",
@@ -491,10 +491,10 @@
 		'Non &egrave; stato possibile scrivere la pagina sul disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
 
 		'A page with that title already exists' => 
-		'Una pagina con lo stesso titolo &egrave; gi&agrave; stata definita',
+		'Una pagina con lo stesso titolo &egrave; gi&agrave; stata definita.',
 
 		'A page with that handle already exists' => 
-		'Una pagina con lo stesso identificativo &egrave; gi&agrave; stata definita',
+		'Una pagina con lo stesso identificativo &egrave; gi&agrave; stata definita.',
 
 		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
 		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&agrave;</a>',
@@ -545,10 +545,10 @@
 		'Elimina questa sezione',
 
 		'This is a required field.' => 
-		'Questo campo &grave; obbligatorio.',
+		'Questo campo &egrave; obbligatorio.',
 
 		'A Section with the name <code>%s</code> name already exists' => 
-		'La sezione <code>%s</code> &egrave; gi&agrave; stata definita',
+		'Una sezione chiamata <code>%s</code> &egrave; gi&agrave; stata definita.',
 
 		'Two custom fields have the same element name. All element names must be unique.' =>
 		'I nomi dei campi personalizzati devono essere univoci.',
@@ -578,7 +578,7 @@
 		'Il nome è un campo obbligatorio.',
 
 		'A Utility with that name already exists. Please choose another.' => 
-		'Un servizio con lo stesso nome &egrave; gi&agrave; stato definito. Sceglierne un altro.',
+		'Un servizio con lo stesso nome &egrave; gi&agrave; stato definito.',
 
 		'Login' => 
 		'Accedi',
@@ -824,25 +824,25 @@
 		'Non &egrave; stato possibile creare il file "%s".',
 
 		'First name is required' => 
-		'Il nome &grave; obbligatorio',
+		'Il nome &grave; obbligatorio.',
 
 		'Last name is required' => 
-		'Il cognome &egrave; obbligatorio',
+		'Il cognome &egrave; obbligatorio.',
 
 		'E-mail address is required' => 
-		'L\'indirizzo e-mail &egrave; obbligatorio',
+		'L\'indirizzo e-mail &egrave; obbligatorio.',
 
 		'E-mail address entered is invalid' => 
-		'L\'indirizzo e-mail inserito non &egrave; valido',
+		'L\'indirizzo e-mail inserito non &egrave; valido.',
 
 		'Username is required' => 
-		'Il nome utente &egrave; obbligatorio',
+		'Il nome utente &egrave; obbligatorio.',
 
 		'Username is already taken' => 
-		"Il nome utente &egrave; gi&agrave; in uso",
+		"Il nome utente &egrave; gi&agrave; in uso.",
 
 		'Password is required' => 
-		'La password &egrave; obbligatoria',
+		'La password &egrave; obbligatoria.',
 
 		'Page Not Found' => 
 		'La pagina non &egrave; stata trovata',
@@ -887,7 +887,7 @@
 		'Il nome dell\'elemento dev\'essere del tipo QName.',
 
 		'A field with that element name already exists. Please choose another.' => 
-		'Un campo con questo nome &egrave; gi&agrave; stato definito. Sceglierne un altro.',
+		'Un campo con questo nome &egrave; gi&agrave; stato definito.',
 
 		'\'%s\' is a required field.' => 
 		'\'%s\' &egrave; un campo obbligatorio.',
@@ -896,7 +896,7 @@
 		'Etichetta',
 
 		'%s Make this a required field' => 
-		'%s Campo obbligatorio',
+		'%s Campo obbligatorio.',
 
 		'%s Show column' => 
 		'%s Mostra colonna',
@@ -1271,7 +1271,7 @@
 		'Input di testo',
 
 		'\'%s\' contains invalid data. Please check the contents.' => 
-		'\'%s\' contiene dati non validi. Verifica i contenuti.',
+		'\'%s\' contiene dati non validi. Verifica che il formato dei dati sia corretto.',
 
 		'"%1$s" contains invalid XML. The following error was returned: <code>%2$s</code>' => 
 		'"%1$s" contiene XML non valido. L\'errore segnalato &egrave; il seguente: <code>%2$s</code>',
