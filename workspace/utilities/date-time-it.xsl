@@ -30,7 +30,7 @@ Esempi di formattazione:
 
 M       => Gennaio
 d M     => 21 Settembre
-m D, Y  => Sep 21°, 1981
+m D, Y  => Set 21°, 1981
 n-d-y   => 09-21-81
 d/n/y   => 21/09/81
 d/n/y t => 21/09/81 6:30pm
