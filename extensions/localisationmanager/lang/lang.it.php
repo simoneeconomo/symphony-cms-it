@@ -176,7 +176,7 @@
 		'ID della pagina',
 
 		'Handle' => 
-		'Maniglia',
+		'Abbreviazione',
 
 		'Sort Order' => 
 		'Ordinamento',
@@ -434,7 +434,7 @@
 		'Applica',
 
 		'%s %s at %s. <a href="%s">View all %s</a>' => 
-		'%s %s il %s. <a href="%s">Visualizza tutti/e i/le %s</a>',
+		'%s %s %s. <a href="%s">Visualizza tutte le %s</a>',
 
 		'Page' => 
 		'Pagina',
@@ -443,7 +443,7 @@
 		'Il corpo &egrave; un campo obbligatorio.',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
-		'Questo documento non &egrave; ben formato. &Egrave; stato restituito il seguente errore: <code>%s</code>',
+		'Questo documento non &egrave;  la sintassi XML. L\'errore individuato &egrave; il seguente: <code>%s</code>',
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Non &egrave; stato possibile creare il servizio. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
@@ -455,7 +455,7 @@
 		'La pagina richiesta non esiste.',
 
 		'%s %s at %s. <a href="%s">Create another?</a> <a href="%s">View all %s</a>' => 
-		'%s %s il %s. <a href="%s">Vuoi crearne un altro?</a> <a href="%s">Visualizza tutti/e i/le %s</a>',
+		'%s %s %s. <a href="%s">Vuoi crearne un\'altra?</a> <a href="%s">Visualizza tutte le %s</a>',
 
 		'Page Settings' => 
 		'Impostazioni della pagina',
@@ -521,7 +521,7 @@
 		'Elimina le voci',
 
 		'%s Hide this section from the Publish menu' => 
-		'%s Nascondi questa sezione dalla navigazione pubblica',
+		'%s Nascondi questa sezione dal men&ugrave; di navigazione',
 
 		'Fields' => 
 		'Campi',
@@ -638,7 +638,7 @@
 		'Crea una nuova voce',
 
 		'Sort by %1$s %2$s' => 
-		'Ordina per %1$s %2$s',
+		'Ordina per %2$s %1$s',
 
 		'Set %s' => 
 		'Imposta %s',
@@ -662,7 +662,7 @@
 		'Ultima',
 
 		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Sei in una sezione che non contiene alcun campo. Sicuro di non volerne <a href="%s">creare qualcuno</a>, prima?',
+		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler <a href="%s">creare un campo</a>, prima?',
 
 		'Create Entry' => 
 		'Crea voce',
@@ -695,7 +695,7 @@
 		'Crea un profilo',
 
 		'Add a new author' => 
-		'Aggiunge un nuovo profilo autore',
+		'Crea un nuovo profilo autore',
 
 		'Last Seen' => 
 		'Ultima visita',
@@ -896,13 +896,13 @@
 		'Etichetta',
 
 		'%s Make this a required field' => 
-		'%s Campo obbligatorio.',
+		'%s Campo obbligatorio',
 
 		'%s Show column' => 
 		'%s Mostra colonna',
 
 		'Placement' => 
-		'Collocamento',
+		'Collocamento nell\'interfaccia',
 
 		'Main content' => 
 		'Porzione principale',
@@ -1079,7 +1079,7 @@
 		'Preferenze del sito',
 
 		'Date and Time' => 
-		'Data e Ora',
+		'Data e ora',
 
 		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
 		'Personalizza il modo in cui la data e l\'ora vengono visualizzate attraverso l\'interfaccia di amministrazione.',
@@ -1268,7 +1268,7 @@
 		'%s Inserisci in automatico la data corrente',
 
 		'Text Input' => 
-		'Input di testo',
+		'Input semplice',
 
 		'\'%s\' contains invalid data. Please check the contents.' => 
 		'\'%s\' contiene dati non validi. Verifica che il formato dei dati sia corretto.',
@@ -1292,13 +1292,13 @@
 		'%s Consenti la selezione di pi&ugrave; valori',
 
 		'Tag List' => 
-		'Lista di parole chiave',
+		'Lista tag',
 
 		'Suggestion List' => 
-		'Fonte dei suggerimenti',
+		'Fonti dei suggerimenti',
 
 		'Existing Values' => 
-		'Valori esistenti',
+		'Valori pre-esistenti',
 
 		'Textarea' => 
 		false,

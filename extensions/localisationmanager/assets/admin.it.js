@@ -20,7 +20,7 @@ Symphony.Language = {
 	CHANGE_PASSWORD:  "Modifica la password",
 	REMOVE_FILE:      "Rimuovi il file",
 	TIME_SEPARATOR:   "alle",
-	TIME_NOW:         "adesso",
+	TIME_NOW:         "pochi istanti fa",
 	TIME_MINUTE:      "un minuto fa",
 	TIME_MINUTES:     "{$minutes} minuti fa",
 	TIME_HOUR:        "circa un'ora fa",
