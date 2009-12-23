@@ -20,7 +20,7 @@
 		// Missing translations
 
 		'A database error occurred while attempting to reorder.' => 
-		'Si &egrave; verificato un errore nel database durante il riordinamento',
+		'Si &egrave; verificato un errore nel database durante il riordinamento.',
 
 		'%1$s &ndash; %2$s' => 
 		false,
@@ -92,19 +92,19 @@
 		'Navigazione',
 
 		'Custom XML' => 
-		'XML personalizzato',
+		'Altre fonti XML',
 
 		'dynamic_xml' => 
-		'xml_dinamico',
+		'dynamic_xml',
 
 		'Dynamic XML' => 
-		'XML dinamico',
+		'Fonte XML dinamica',
 
 		'static_xml' => 
-		'xml_statico',
+		'static_xml',
 
 		'Static XML' => 
-		'XML statico',
+		'Fonte XML statica',
 
 		'Sections' => 
 		'Sezioni',
@@ -245,13 +245,13 @@
 		'%s codifica il testo in formato HTML',
 
 		'URL' => 
-		false,
+		'URL della sorgente',
 
 		'Use <code>{$param}</code> syntax to specify dynamic portions of the URL.' => 
-		'Utilizza la sintassi <code>{$param}</code> per specificare porzioni dinamiche dell\'URL.',
+		'La sintassi <code>{$param}</code> ti permette di usare i parametri URL di una pagina come valore.',
 
 		'Namespace Declarations <i>Optional</i>' => 
-		'Dichiarazione del namespace <i>opzionale</i>',
+		'Namespace da dichiarare <i>opzionale</i>',
 
 		'URI' => 
 		false,
@@ -260,13 +260,13 @@
 		false,
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
-		'Utilizza un\'espressione XPath per selezionare quali elementi verranno estratti dall\'albero XML.',
+		'Puoi usare un\'espressione XPath per scegliere quali elementi estrarre dall\'albero XML.',
 
 		'Body' => 
 		'Corpo',
 
 		'Save Changes' => 
-		'Salva i cambiamenti',
+		'Salva le modifiche',
 
 		'Create Data Source' => 
 		'Crea la sorgente dati',
@@ -314,19 +314,19 @@
 		'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
 
 		'Filter Rules' => 
-		'Regole per il filtraggio',
+		'Azioni associate all\'evento',
 
 		'Admin Only' => 
-		'Solamente amministratore',
+		'Solamente gli autori autenticati possono scatenare l\'evento',
 
 		'Send Email' => 
-		'Invia Email',
+		'Invia un\'email a un autore quando l\'evento viene scatenato',
 
 		'Allow Multiple' => 
-		'Permetti la scelta multipla',
+		'Consenti l\'invio di pi&ugrave; voci',
 
 		'This event will not be processed if any of these rules return true.' => 
-		'Questo evento verr&agrave; processato esclusivamente nel caso in cui tutte le condizioni siano soddisfatte.',
+		'L\'esito di questo evento &egrave; strettamente legato a quello delle azioni selezionate.',
 
 		'Description' => 
 		'Descrizione',
@@ -344,49 +344,49 @@
 		"Un evento chiamato <code>%s</code> &egrave; gi&agrave; stato definito.",
 
 		'Success and Failure XML Examples' => 
-		'Output XML',
+		'Risposta XML all\'evento',
 
 		'When saved successfully, the following XML will be returned:' => 
-		'Nel caso il salvataggio abbia successo, verr&agrave; restituito il seguente output:',
+		'Se l\'evento d&agrave; esito positivo, verr&agrave; restituito il seguente messaggio:',
 
 		'Entry [created | edited] successfully.' => 
 		'Voce [creata | modificata] con successo.',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		'Nel caso il salvataggio fallisca a causa di campi mancanti o non validi, verr&agrave; restituito il seguente output:',
+		'Se l\'evento d&agrave; esito negativo, per esempio a causa di campi mancanti o non validi, verr&agrave; restituito il seguente messaggio:',
 
 		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
-		 '(<b>N.B. &Egrave; possibile che utilizzando l\'opzione \'Permetti la scelta multipla\' si possano ottenere sia messaggi d\'errore che non</b>)',
+		 '(<b>N.B. &Egrave; possibile che utilizzando l\'opzione "Consenti l\'invio di pi&ugrave; voci" si possano ottenere sia messaggi di conferma che messaggi d\'errore</b>)',
 
 		'Entry encountered errors when saving.' => 
 		'Si sono verificati degli errori durante il salvataggio della voce.',
 
 		'The following is an example of what is returned if any filters fail:' => 
-		'Quello che segue &egrave; un esempio di ci&ograve; che verr&agrave; restituito nel caso in cui il filtro dovesse fallire:',
+		'Se una o più azioni dovessero dare esito negativo, verr&eagrave; restituito un messaggio d\'errore simile a questo:',
 
 		'Recipient username was invalid' => 
 		'L\'username del destinatario non &egrave; corretto',
 
 		'Example Front-end Form Markup' => 
-		'Markup utilizzabile nel form',
+		'Come costruire il form associato all\'evento',
 
 		'This is an example of the form markup you can use on your frontend:' => 
-		'Puoi utilizzare il seguente markup per costruire il form associato a questo evento:',
+		'Per costruire il form associato a questo evento puoi ispirarti a questo esempio:',
 
 		'Submit' => 
 		'Inviare',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		'Per modificare un elemento gi&agrave; esistente, inserire l\'ID dell\'elemento che si desidera modificare. L\'ideale sarebbe utilizzare un campo nascosto:',
+		'Per modificare una voce gi&agrave; esistente:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
-		'Per reindirizzare su una pagina differente dopo l\'invio, includere l\'URL di destinazione nel form. L\'ideale sarebbe utilizzare un campo nascosto:',
+		'Per reindirizzare su una pagina differente dopo l\'invio:',
 
 		'Send Email Filter' => 
-		'Filtro per l\'invio di e-mail',
+		'Maggiori informazioni sull\'invio di e-mail',
 
 		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
-		'Il filtro per l\'invio di e-mail, dopo l\'invio, prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questo filtro non funziona con l\'opzione \'Permetti la scelta multipla\'.</b> Di seguito i campi riconosciuti:',
+		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &egrave; compatibile con l\'opzione "Consenti l\'invio di pi&ugrave; voci".</b> Di seguito i campi riconosciuti:',
 
 		'Optional' => 
 		'Opzionale',
@@ -395,7 +395,7 @@
 		'lista degli autori separati da virgola',
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		'Tutti questi campi possono essere creati/modificati dinamicamente come mostrato qui sotto:',
+		'Per costruire il form associato a questo evento puoi ispirarti a questo esempio:',
 
 		'Message' => 
 		'Messaggio',
@@ -1283,10 +1283,10 @@
 		'&Egrave; necessario specificare almeno una fonte.',
 
 		'Static Options' => 
-		'Fonte',
+		'Fonti statiche',
 
 		'Dynamic Options' => 
-		'Fonte',
+		'Fonti dinamiche',
 
 		'%s Allow selection of multiple options' => 
 		'%s Consenti la selezione di pi&ugrave; valori',
@@ -1346,7 +1346,7 @@
 		'C\'&egrave; stato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
 
 		'Blueprints' => 
-		'Modelli',
+		'Progetto',
 
 	);
 	
@@ -1577,7 +1577,7 @@
 		false,
 
 		'Options' => 
-		'Fonte',
+		'Fonti',
 
 		'Limit to the %s most recent entries' => 
 		'Limita alle %s voci più recenti',
@@ -1647,9 +1647,9 @@
 
 		// Ampersands
 
-		'/^&(?!&)$/' => 'and',
-		'/^&(?!&)/' => 'and-',
-		'/&(?!&)&/' => '-and',
-		'/&(?!&)/' => '-and-',
+		'/^&(?!&)$/' => 'e',
+		'/^&(?!&)/' => 'e-',
+		'/&(?!&)&/' => '-e',
+		'/&(?!&)/' => '-e-',
 
 	);
