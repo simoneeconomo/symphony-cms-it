@@ -866,7 +866,7 @@
 		'nome',
 
 		'Utility' => 
-		'Strumento',
+		'Servizio',
 
 		'No suitable engine object found' => 
 		'Non &egrave; stato trovato alcun elaboratore XSLT disponibile',
@@ -1347,6 +1347,66 @@
 
 		'Blueprints' => 
 		'Progetto',
+
+	);
+	
+	
+	/*
+	 * CORE: Symphony
+	 * Javascript strings
+	 */
+
+	$dictionary += array(
+	
+		// Missing translations
+
+		'Untitled' => 
+		'Senza titolo',
+
+		'Add item' => 
+		'Aggiungi',
+
+		'Remove selected items' => 
+		'Rimuovi gli oggetti selezionati',
+
+		'Are you sure you want to {$action} {$name}?' => 
+		'Sei sicuro di volere {$action} {$name}?',
+
+		'Are you sure you want to {$action} {$count} items?' => 
+		'Sei sicuro di volere {$action} {$count} elementi?',
+
+		'Are you sure you want to {$action}?' => 
+		'Sei sicuro di volere {$action}?',
+
+		'Reordering was unsuccessful.' => 
+		'Riordinamento fallito.',
+
+		'Password' => 
+		'Password',
+
+		'Change Password' => 
+		'Modifica password',
+
+		'Remove File' => 
+		'Rimuovi File',
+
+		'at' => 
+		'alle',
+
+		'just now' => 
+		'pochi istanti fa',
+
+		'a minute ago' => 
+		'un minuto fa',
+
+		'{$minutes} minutes ago' => 
+		'{$minutes} minuti fa',
+
+		'about 1 hour ago' => 
+		"circa un'ora fa",
+
+		'about {$hours} hours ago' => 
+		'circa {$hours} ore fa',
 
 	);
 	
