@@ -305,7 +305,7 @@
 		'Una sorgente dati chiamata <code>%s</code> &egrave; gi&agrave; stata definita.',
 
 		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
-		'Non &grave; stato possibile creare la sorgente dati in <code>%s</code>. Controlla i permessi.',
+		'Non &egrave; stato possibile creare la sorgente dati in <code>%s</code>. Controlla i permessi.',
 
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento modificato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
@@ -593,7 +593,7 @@
 		'Indirizzo e-mail',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'Non &grave; stato possibile trovare il tuo account. Per favore controlla di avere utilizzato un indirizzo e-mail corretto.',
+		'Non &egrave; stato possibile trovare il tuo account. Per favore controlla di avere utilizzato un indirizzo e-mail corretto.',
 
 		'New Password' => 
 		'Nuova password',
@@ -602,13 +602,13 @@
 		'Conferma la nuova password',
 
 		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
-		'La password fornita non &grave; valida. Controlla di non aver lasciato il campo vuoto o di averla reinserita correttamente.',
+		'La password fornita non &egrave; valida. Controlla di non aver lasciato il campo vuoto o di averla reinserita correttamente.',
 
 		'Password' => 
 		'Password',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
-		'La password inserita non &grave; valida. <a href="%s">Hai perso la password?</a>',
+		'La password inserita non &egrave; valida. <a href="%s">Hai perso la password?</a>',
 
 		'Symphony Concierge' => 
 		'Symphony Orchestra Sinfonica',
@@ -632,7 +632,7 @@
 		'Il team di Symphony',
 
 		'The Section you are looking, <code>%s</code> for could not be found.' => 
-		'Non &grave; stato possibile trovare la sezione <code>%s</code>.',
+		'Non &egrave; stato possibile trovare la sezione <code>%s</code>.',
 
 		'Create a new entry' => 
 		'Crea una nuova voce',
@@ -671,13 +671,13 @@
 		'Si sono verificati alcuni errori durante il salvataggio.',
 
 		'The Section you are looking for, <code>%s</code>, could not be found.' => 
-		'Non &grave; stato possibile trovare la sezione <code>%s</code>.',
+		'Non &egrave; stato possibile trovare la sezione <code>%s</code>.',
 
 		'Unknown Entry' => 
 		'Voce sconosciuta',
 
 		'The entry you are looking for could not be found.' => 
-		'Non &grave; stato possibile trovare la voce richiesta.',
+		'Non &egrave; stato possibile trovare la voce richiesta.',
 
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Voce modificata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
@@ -734,7 +734,7 @@
 		'Elimina questo profilo',
 
 		'Passwords did not match' => 
-		'La nuova password non &grave; stata inserita correttamente ',
+		'La nuova password non &egrave; stata inserita correttamente ',
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
 		'Si sono verificati degli errori durante il salvataggio. Controlla di aver compilato correttamente il modulo.',
@@ -824,7 +824,7 @@
 		'Non &egrave; stato possibile creare il file "%s".',
 
 		'First name is required' => 
-		'Il nome &grave; obbligatorio.',
+		'Il nome &egrave; obbligatorio.',
 
 		'Last name is required' => 
 		'Il cognome &egrave; obbligatorio.',
@@ -851,13 +851,13 @@
 		'La pagina richiesta non esiste.',
 
 		'%s is not a valid object. Failed to append to XML.' => 
-		'Non &grave; stato possibile aggiungere l\'oggetto %s all\'albero XML poich&eacute; non &egrave; un oggetto valido.',
+		'Non &egrave; stato possibile aggiungere %s all\'albero XML poich&eacute; non &egrave; un oggetto valido.',
 
 		'No records found.' => 
 		'L\'esito della ricerca non ha dato risultati.',
 
 		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Non &grave; stato possibile trovare la sorgente dati <code>%s</code>. Se &egrave; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Non &egrave; stato possibile trovare la sorgente dati <code>%s</code>. Se &egrave; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'Edit' => 
 		'Modifica',
@@ -881,7 +881,7 @@
 		'Non &egrave; stato possibile %1$s %2$s a causa di un problema nel caricamento dell\'oggetto. Verifica che il driver associato esista.',
 
 		'Could not find extension at location %s' => 
-		'Non &grave; stato possibile trovare l\'estensione in $s.',
+		'Non &egrave; stato possibile trovare l\'estensione in %s.',
 
 		'Invalid element name. Must be valid QName.' => 
 		'Il nome dell\'elemento dev\'essere del tipo QName.',
@@ -1391,7 +1391,7 @@
 		'Installa Symphony <em>Versione %s</em>',
 
 		'It appears that Symphony has already been installed at this location.' => 
-		'Sembra che Symphony sia gi&grave; stato installato in questa cartella.',
+		'Sembra che Symphony sia gi&agrave; stato installato in questa cartella.',
 
 		'Export Ensemble cannot be installed, since the "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" class is not available. Ensure that PHP was compiled with the <code>--enable-zip</code> flag.' => 
 		'L\'estensione \'Export Ensemble\' non può essere installata perché la classe "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" non &egrave; disponibile. Assicurati di aver compilato PHP con l\'opzione <code>--enable-zip</code>.',
