@@ -55,10 +55,10 @@
 		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
 		'Si &egrave; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
 
-		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' => 
+		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
 
-		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data source</a>' => 
+		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sorgente dati creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
@@ -116,7 +116,7 @@
 		'Filtri',
 
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
-		'La sintassi <code>{$param}</code> ti permette di usare i parametri URL di una pagina come valore.',
+		'La sintassi <code>{$param}</code> ti permette di usare i Parametri URL di una pagina come valore.',
 
 		'Filter %s by' => 
 		'Filtra %s per',
@@ -161,7 +161,7 @@
 		'Ordinamento e limitazioni',
 
 		'Use <code>{$param}</code> syntax to limit by page parameters.' => 
-		'La sintassi <code>{$param}</code> ti permette di usare i parametri URL di una pagina come valore.',
+		'La sintassi <code>{$param}</code> ti permette di usare i Parametri URL di una pagina come valore.',
 
 		'Sort By' => 
 		'Ordina per',
@@ -206,7 +206,7 @@
 		'Non includere le parentesi graffe. Se il parametro non ha alcun valore, non verr&agrave; restituito alcun risultato.' ,
 
 		'%s Redirect to 404 page when no results are found' => 
-		'%s Reindirizza alla pagina 404 in caso di nessun risultato',
+		'%s Reindirizza alla pagina 404 nel caso non venga restituito alcun risultato',
 
 		'Output Options' => 
 		'Opzioni di output',
@@ -240,6 +240,9 @@
 
 		'Included Elements' => 
 		'Elementi da includere',
+
+		'%s Include a count of entries in associated sections' => 
+		'%s includi il conteggio delle voci presenti in questa sezione',
 
 		'%s HTML-encode text' => 
 		'%s codifica il testo in formato HTML',
@@ -424,6 +427,9 @@
 		'Type' => 
 		'Tipo',
 
+		'Children' => 
+		'Figli',
+
 		'None found.' => 
 		'Nessun risultato trovato.',
 
@@ -433,11 +439,14 @@
 		'Apply' => 
 		'Applica',
 
-		'%s %s at %s. <a href="%s">View all %s</a>' => 
-		'%s %s %s. <a href="%s">Visualizza tutte le %s</a>',
+		'Page updated at %s. <a href="%s">View all Pages</a>' => 
+		'Pagina modificata %s. <a href="%s">Visualizza tutte le pagine.</a>',
 
-		'Page' => 
-		'Pagina',
+		'Edit Configuration' => 
+		'Modifica le impostazioni',
+
+		'Edit Page Confguration' => 
+		'Modifica le impostazioni associate a questo template',
 
 		'Body is a required field.' => 
 		'Il corpo &egrave; un campo obbligatorio.',
@@ -454,8 +463,17 @@
 		'The page you requested to edit does not exist.' => 
 		'La pagina richiesta non esiste.',
 
-		'%s %s at %s. <a href="%s">Create another?</a> <a href="%s">View all %s</a>' => 
-		'%s %s %s. <a href="%s">Vuoi crearne un\'altra?</a> <a href="%s">Visualizza tutte le %s</a>',
+		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
+		'Pagina modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le pagine</a>',
+
+		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
+		'Pagina creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le pagine</a>',
+
+		'Edit Template' => 
+		'Modifica il template',
+
+		'Edit Page Template' => 
+		'Modifica il template associato a questa pagina',
 
 		'Page Settings' => 
 		'Impostazioni della pagina',
@@ -540,6 +558,9 @@
 
 		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Sezione creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
+
+		'Navigation Group <i>Choose only one. Created if does not exist</i>' => 
+		'Gruppo di navigazione <i>Scegline solo uno. Se non esiste, verr&agrave; creato</i>',
 
 		'Delete this section' =>
 		'Elimina questa sezione',
@@ -725,7 +746,7 @@
 		'%1$s Permetti l\'accesso remoto attraverso <a href="%2$s">%2$s</a>',
 
 		'Default Section' => 
-		'Sezione di default',
+		'Sezione da mostrare all\'accesso',
 
 		'Create Author' => 
 		'Crea profilo',
@@ -844,12 +865,6 @@
 		'Password is required' => 
 		'La password &egrave; obbligatoria.',
 
-		'Page Not Found' => 
-		'La pagina non &egrave; stata trovata',
-
-		'The page you requested does not exist.' => 
-		'La pagina richiesta non esiste.',
-
 		'%s is not a valid object. Failed to append to XML.' => 
 		'Non &egrave; stato possibile aggiungere %s all\'albero XML poich&eacute; non &egrave; un oggetto valido.',
 
@@ -922,6 +937,12 @@
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Non &egrave; stato possibile trovare il campo <code>%1$s</code> in <code>%2$s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
+		'Page Not Found' => 
+		'La pagina non &egrave; stata trovata',
+
+		'The page you requested does not exist.' => 
+		'La pagina richiesta non esiste.',
+
 		'Forbidden' => 
 		'Vietato',
 
@@ -929,34 +950,34 @@
 		'<a href="%s">Effettua l\'accesso</a> per visualizzare questa pagina.',
 
 		'Large' =>
-		'Grande',
+		'Grandi',
 
 		'Small' => 
-		'Piccolo',
+		'Piccoli',
 
 		'Hot' => 
-		'Caldo',
+		'Caldi',
 
 		'Cold' => 
-		'Freddo',
+		'Freddi',
 
 		'Big' => 
-		'Grosso',
+		'Grossi',
 
 		'Hairy' => 
-		'Irsuto',
+		'Irsuti',
 
 		'Round' => 
-		'Rotondo',
+		'Rotondi',
 
 		'Lumpy' => 
-		'Increspato',
+		'Bozzoloso',
 
 		'Coconut' => 
-		'Cocco',
+		'NociDiCocco', // !
 
 		'Encumbered' => 
-		'Gravato',
+		'Ingombranti', // !
 
 		'Cats' => 
 		'Gatti',
@@ -986,7 +1007,7 @@
 		'Pirati',
 
 		'Aardvarks' => 
-		'Ornitorinchi',
+		'Ornitorinchi', // !
 
 		'Men' => 
 		'Uomini',
@@ -1348,6 +1369,23 @@
 		'Blueprints' => 
 		'Progetto',
 
+		// Compatibility mode (Symphony 2.0.6)
+
+		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' =>
+		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
+
+		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data source</a>' =>
+		'Sorgente dati creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
+
+		'%s %s at %s. <a href="%s">View all %s</a>' => 
+		'%s %s %s. <a href="%s">Visualizza tutte le %s</a>',
+
+		'Page' => 
+		'Pagina',
+
+		'%s %s at %s. <a href="%s">Create another?</a> <a href="%s">View all %s</a>' => 
+		'%s %s %s. <a href="%s">Vuoi crearne un\'altra?</a> <a href="%s">Visualizza tutte le %s</a>',
+
 	);
 	
 	
@@ -1370,13 +1408,13 @@
 		'Rimuovi gli oggetti selezionati',
 
 		'Are you sure you want to {$action} {$name}?' => 
-		'Sei sicuro di volere {$action} {$name}?',
+		'Sei sicuro di voler continuare?',
 
 		'Are you sure you want to {$action} {$count} items?' => 
-		'Sei sicuro di volere {$action} {$count} elementi?',
+		'Sei sicuro di voler continuare?',
 
 		'Are you sure you want to {$action}?' => 
-		'Sei sicuro di volere {$action}?',
+		'Sei sicuro di voler continuare?',
 
 		'Reordering was unsuccessful.' => 
 		'Riordinamento fallito.',
@@ -1443,6 +1481,15 @@
 	$dictionary += array(
 	
 		// Missing translations
+
+		'Missing File' => 
+		'File mancante',
+
+		'Install Symphony <em>Version %s</em>' => 
+		'Installa Symphony <em>versione %s</em>',
+
+		'It appears that <code>install.sql</code> is either missing or not readable. This is required to populate the database and must be uploaded before installation can commence. Ensure that <code>PHP</code> has read permissions.' => 
+		'Sembra che il file <code>install.sql</code> non esista o non abbia i permessi in lettura. Senza questo file, non &egrave; possibile popolare il database e avviare l\'installazione. Assicurati che <code>PHP</code> abbia i permessi in lettura.',
 
 		'Existing Installation' => 
 		'Installazione esistente',
@@ -1594,6 +1641,9 @@
 		'Full Page Render Statistics' => 
 		'Statistiche di resa della pagina',
 
+		'Memory Usage' => 
+		'Impiego di memoria',
+
 		'Slow Query Details' => 
 		'Dettagli sulle query pi&ugrave; lente',
 
@@ -1620,6 +1670,9 @@
 
 		'Output Creation Time' => 
 		'Tempo di generazione dell\'output',
+
+		'Total Memory Usage' => 
+		'Impiego totale di memoria',
 
 	);
 	

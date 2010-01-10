@@ -1,12 +1,18 @@
-La traduzione si compone dei seguenti file:
+La traduzione è composta di due file:
 
-- lang.it.php (File di lingua principale)
-- admin.it.js (File di lingua secondario)
-- date-time-it.xsl (Template XSLT per la generazione di date/ore in lingua italiana)
+lang.it.php
+    File di lingua principale
+
+date-time-it.xsl
+    Template XSLT per la generazione di date/ore in lingua italiana
 
 La struttura delle cartelle ricalca quella all'interno di Symphony, pertanto è necessario un semplice copia-incolla dalla root del CMS che NON sovrascriverà alcun file.
 
 ### Impostare la lingua italiana
+
+Innanzi tutto è necessario scaricare l'estensione "Localisation Manager" (http://symphony-cms.com/download/extensions/view/29645/), sviluppata da Nils Hörrmann.
+
+NOTA: Attualmente l'unica versione dell'estensione che è compatibile con Symphony 2.0.6 è la *1.0.2*. Per chi, invece, usa Symphony 2.0.7 o superiore, va bene la versione più recente.
 
 Per impostare la lingua italiana, dall'interfaccia di amministrazione di Symphony, dirigersi in "System -> Preferences -> System Language" e scegliere dal menù a tendina "Italiano (Italy)".
 
@@ -14,6 +20,6 @@ Per impostare la lingua italiana, dall'interfaccia di amministrazione di Symphon
 
 Per segnalare gli errori sentitevi liberi di postare sul nostro Google Group: http://groups.google.com/group/symphony-cms-it
 
-NOTA: Per motivi di spam abbiamo dovuto impedire la registrazione automatica al gruppo, pertanto dovete essere invitati. Nessun problema! Nelle motivazioni scriveteci "Beta testing della traduzione", o qualcosa del genere, così capiremo che siete umani. ;) Ciao!
+NOTA: Per motivi di spam abbiamo dovuto impedire la registrazione automatica al gruppo, pertanto dovete essere invitati. Nessun problema! Scrivete qualcosa di sensato nelle motivazioni (tipo "_Voglio contribuire alla traduzione_" o "_Sono il supereroe che stavate cercando_") che ci convinca che non siete spambot. ;)
 
-Buon testing!
+Grazie!
