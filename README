@@ -6,13 +6,13 @@ lang.it.php
 date-time-it.xsl
     Template XSLT per la generazione di date/ore in lingua italiana
 
-La struttura delle cartelle ricalca quella all'interno di Symphony, pertanto è necessario un semplice copia-incolla dalla root del CMS che NON sovrascriverà alcun file.
+La struttura delle cartelle ricalca quella all'interno di Symphony, pertanto potete copiare comodamente le due cartelle `symphony/` ed `extensions/` all'interno della root del CMS.
 
 ### Impostare la lingua italiana
 
 Innanzi tutto è necessario scaricare l'estensione "Localisation Manager" (http://symphony-cms.com/download/extensions/view/29645/), sviluppata da Nils Hörrmann.
 
-NOTA: Attualmente l'unica versione dell'estensione che è compatibile con Symphony 2.0.6 è la *1.0.2*. Per chi, invece, usa Symphony 2.0.7 o superiore, va bene la versione più recente.
+NOTA: Attualmente l'unica versione dell'estensione che è compatibile con Symphony 2.0.6 è la `1.0.2`. Per chi, invece, usa Symphony 2.0.7 o superiore, va bene la versione più recente.
 
 Per impostare la lingua italiana, dall'interfaccia di amministrazione di Symphony, dirigersi in "System -> Preferences -> System Language" e scegliere dal menù a tendina "Italiano (Italy)".
 

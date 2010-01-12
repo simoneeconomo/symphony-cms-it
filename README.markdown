@@ -6,7 +6,7 @@ La traduzione è composta di due file:
 `date-time-it.xsl`
 :    Template XSLT per la generazione di date/ore in lingua italiana
 
-La struttura delle cartelle ricalca quella all'interno di Symphony, pertanto è necessario un semplice copia-incolla dalla root del CMS che NON sovrascriverà alcun file.
+La struttura delle cartelle ricalca quella all'interno di Symphony, pertanto potete copiare comodamente le due cartelle `symphony/` ed `extensions/` all'interno della root del CMS.
 
 ### Impostare la lingua italiana
 
