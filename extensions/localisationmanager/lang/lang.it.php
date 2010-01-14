@@ -3,10 +3,10 @@
 	$about = array(
 		'name' => 'Italiano (Italy)',
 		'author' => array(
-			'name' => 'Simone \'eKoeS\' Economo, Davide Crivelli, Antonio \'puleddu\' Piu, Mario ???', // Mario, il tuo cognome?
+			'name' => 'Simone \'eKoeS\' Economo, Davide Crivelli, Antonio \'puleddu\' Piu, Mario',
 			'email' => 'my.ekoes@gmail.com, da.crivelli@gmail.com, antonio.piu@gmail.com, buteram@gmail.com',
 		),
-		'release-date' => '2009-11-22',
+		'release-date' => '2009-11-22', // To be edited
 	);
 
 
@@ -134,7 +134,7 @@
 		false,
 
 		'Username' => 
-		false,
+		'Nome utente',
 
 		'First Name' => 
 		'Nome',
@@ -362,13 +362,13 @@
 		 '(<b>N.B. &Egrave; possibile che utilizzando l\'opzione "Consenti l\'invio di pi&ugrave; voci" si possano ottenere sia messaggi di conferma che messaggi d\'errore</b>)',
 
 		'Entry encountered errors when saving.' => 
-		'Si sono verificati degli errori durante il salvataggio della voce.',
+		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
 
 		'The following is an example of what is returned if any filters fail:' => 
 		'Se una o più azioni dovessero dare esito negativo, verr&eagrave; restituito un messaggio d\'errore simile a questo:',
 
 		'Recipient username was invalid' => 
-		'L\'username del destinatario non &egrave; corretto',
+		'Il nome utente del destinatario non &egrave; corretto',
 
 		'Example Front-end Form Markup' => 
 		'Come costruire il form associato all\'evento',
@@ -434,7 +434,7 @@
 		'Nessun risultato trovato.',
 
 		'With Selected...' => 
-		'Ai selezionati...',
+		'ai selezionati...',
 
 		'Apply' => 
 		'Applica',
@@ -476,7 +476,7 @@
 		'Modifica il template associato a questa pagina',
 
 		'Page Settings' => 
-		'Impostazioni della pagina',
+		'Impostazioni',
 
 		'URL Handle' => 
 		'Abbreviazione URL',
@@ -485,7 +485,7 @@
 		'Parametri URL',
 
 		'Page Resources' => 
-		'Risorse della pagina',
+		'Risorse associate',
 
 		'Create Page' => 
 		'Crea la pagina',
@@ -590,7 +590,7 @@
 		'nuovo',
 
 		'Create Utility' => 
-		'Crea servizio',
+		'Crea il servizio',
 
 		'Delete this utility' => 
 		'Elimina questo servizio',
@@ -632,7 +632,7 @@
 		'La password inserita non &egrave; valida. <a href="%s">Hai perso la password?</a>',
 
 		'Symphony Concierge' => 
-		'Symphony Orchestra Sinfonica',
+		'Symphony CMS',
 
 		'New Symphony Account Password' => 
 		'Nuova password per il tuo account Symphony',
@@ -641,7 +641,7 @@
 		'Ciao %s',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
-		'&Egrave; stata richiesta una nuova password per il tuo account. Effettua l\'accesso usando il link seguente e modifica la password dalla pagina Autori:',
+		'&Egrave; stata richiesta una nuova password per il tuo account. Effettua l\'accesso usando il link seguente e modifica la password dalla pagina Autori dell\'amministrazione:',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Ricorda che il link &egrave; valido solo nelle prossime 2 ore. Se non ne hai richiesta una nuova, allora non considerare questa e-mail.',
@@ -650,7 +650,7 @@
 		'Cordiali saluti,',
 
 		'The Symphony Team' => 
-		'Il team di Symphony',
+		'Il team di Symphony CMS',
 
 		'The Section you are looking, <code>%s</code> for could not be found.' => 
 		'Non &egrave; stato possibile trovare la sezione <code>%s</code>.',
@@ -686,7 +686,7 @@
 		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler <a href="%s">creare un campo</a>, prima?',
 
 		'Create Entry' => 
-		'Crea voce',
+		'Crea la voce',
 
 		'Some errors were encountered while attempting to save.' => 
 		'Si sono verificati alcuni errori durante il salvataggio.',
@@ -707,7 +707,7 @@
 		'Voce creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
 		'It looks like your trying to create an entry. Perhaps you want custom fields first? <a href="%s">Click here to create some.</a>' => 
-		'Stai cercando di creare una nuova voce senza alcun campo personalizzato. Se vuoi, puoi <a href="%s">creare nuovi campi personalizzati.</a>',
+		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler <a href="%s">creare un campo personalizato</a>, prima?',
 
 		'Delete this entry' => 
 		'Elimina questa voce',
@@ -884,7 +884,7 @@
 		'Servizio',
 
 		'No suitable engine object found' => 
-		'Non &egrave; stato trovato alcun elaboratore XSLT disponibile',
+		'Non &egrave; stato possibile creare il nuovo campo. Assicurati che esista un oggetto di tipo <code>engine</code>',
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Il limite di voci specificato non &egrave; valido. Usare una stringa o un numero intero.',
@@ -893,13 +893,13 @@
 		'Non &egrave; stato possibile trovare l\'evento <code>%s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'Could not %1$s %2$s, there was a problem loading the object. Check the driver class exists.' => 
-		'Non &egrave; stato possibile %1$s %2$s a causa di un problema nel caricamento dell\'oggetto. Verifica che il driver associato esista.',
+		'Non &egrave; stato possibile %1$s %2$s. Assicurati che esista il driver associato.',
 
 		'Could not find extension at location %s' => 
 		'Non &egrave; stato possibile trovare l\'estensione in %s.',
 
 		'Invalid element name. Must be valid QName.' => 
-		'Il nome dell\'elemento dev\'essere del tipo QName.',
+		'Il nome dell\'elemento dev\'essere del tipo <code>QName</code>.',
 
 		'A field with that element name already exists. Please choose another.' => 
 		'Un campo con questo nome &egrave; gi&agrave; stato definito.',
@@ -932,7 +932,7 @@
 		'Formato <i>Opzionale</i>',
 
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
-		'Il campo <code>%s</code> non permette di raggruppare l\'output delle sorgenti dati',
+		'Il campo <code>%s</code> non permette di raggruppare l\'output proveniente dalle sorgenti dati',
 
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Non &egrave; stato possibile trovare il campo <code>%1$s</code> in <code>%2$s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
@@ -974,10 +974,10 @@
 		'Bozzoloso',
 
 		'Coconut' => 
-		'NociDiCocco', // !
+		'NociDiCocco',
 
 		'Encumbered' => 
-		'Ingombranti', // !
+		'Ingombranti',
 
 		'Cats' => 
 		'Gatti',
@@ -1025,76 +1025,76 @@
 		'Impossibile aprire il file %s',
 
 		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Impossibile trovare il Text Formatter <code>%s</code>. Se il Text Formatter &egrave; fornito da una Estensione, assicurati che questa sia installata e abilitata.', /*tic*/
+		'Non &egrave; stato possibile trovare il formattatore di testi <code>%s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'No suitable XSLT processor was found.' => 
-		'Impossibile trovare un elaboratore XSLT valido.',
+		'Non &egrave; stato trovato alcun elaboratore XSLT disponibile.',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'Impossibile trovare la cartella <code>/symphony</code> in questo punto. Carica qui i contenuti del pacchetto di installazione di Symphony.',
+		'Impossibile trovare la cartella <code>/symphony</code> in questa cartella. Carica qui i contenuti del pacchetto di installazione di Symphony.',
 
 		'Symphony does not have write permission to the existing <code>/workspace</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony non ha il permesso di scrittura per l\'attuale cartella <code>/workspace</code>. Modifica le impostazioni dei permessi per questa cartella e i suoi contenuti per ottenere il permesso, ad es. con un il comando <code>chmod -R</code>.',
+		'Symphony non ha i permessi in scrittura per la cartella <code>/workspace</code>. Modifica i permessi di questa cartella e dei suoi contenuti, ad es. con un il comando <code>chmod -R</code>.',
 
 		'Symphony does not have write permission to the <code>/manifest</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		'Symphony non ha il permesso di scrittura per l\'attuale cartella <code>/manifest</code>. Modifica le impostazioni dei permessi per questa cartella e i suoi contenuti per ottenere il permesso, ad es. con un il comando <code>chmod -R</code>.',
+		'Symphony non ha i permessi in scrittura per la cartella <code>/manifest</code>. Modifica i permessi di questa cartella e dei suoi contenuti, ad es. con un il comando <code>chmod -R</code>.',
 
 		'Symphony does not have write permission to the root directory. Please modify permission settings on this directory. This is necessary only if you are not including a workspace, and can be reverted once installation is complete.' => 
-		'Symphony non ha il permesso di scrittura per la cartella root. Modifica i permessi per questa cartella. Questa impostazione &egrave; necessaria solo se non stai includendo un workspace e pu&ograve; essere annullata una volta completata l\'installazione.', /*tic*/
+		'Symphony non ha i permessi in scrittura nella cartella principale (root). Modifica i permessi di questa cartella. Questa modifica &egrave; necessaria solo se non stai includendo uno spazio di lavoro (workspace) e pu&ograve; essere annullata una volta completata l\'installazione.',
 
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
-		'Symphony non ha il permesso di scrittura per il file temporaneo <code>htaccess</code>. Modifica le impostazioni dei permessi per questo file affinch&egrave; possa essere modificato e rinominato.',
+		'Symphony non ha i permessi in scrittura per il file temporaneo <code>htaccess</code>.  Modifica i permessi di questo file affinch&eacute; possa essere modificato e rinominato.',
 
 		'Symphony does not have write permission to the <code>/symphony</code> directory. Please modify permission settings on this directory. This is necessary only during installation, and can be reverted once installation is complete.' => 
-		'Symphony non ha il permesso di scrittura per la cartella <code>/symphony</code>. Modifica le impostazioni dei permessi per questa cartella. Questa impostazione &egrave; necessaria solo durante l\'installazione e pu&ograve; essere annullata una volta che questa sar&agrave; terminata.',
+		'Symphony non ha i permessi in scrittura per la cartella <code>/symphony</code>. Modifica i permessi di questa cartella. Questa modifica &egrave; necessaria solo durante l\'installazione e pu&ograve; essere annullata una volta che quest\'ultima sar&agrave; terminata.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the Symphony install location. To avoid name clashes, you will need to delete or rename this file.' => 
-		'Sembra che esista gi&agrave; un file <code>.htaccess</code> nel punto di installazione di Symphony. Per evitare conflitti devi cancellare o rinominare questo file.',
+		'Sembra che esista gi&agrave; un file <code>.htaccess</code> nela cartella di installazione di Symphony. Per evitare conflitti devi cancellare o rinominare questo file.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the <code>/symphony</code> directory.' => 
 		'Sembra che esista gi&agrave; un file <code>.htaccess</code> nella cartella <code>/symphony</code>.',
 
 		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
-		'Symphony non &egrave; riuscito a connettersi al database specificato. Devi probabilmente modificare le impostazioni del host o della porta.',
+		'Non &egrave; stato possibile connettersi al database specificato. Prova a modificare le impostazioni relative all\'host o alla porta.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto prima che l\installazione possa proseguire.',
+		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto affinch&eacute; l\'installazione possa proseguire.',
 
 		'The table prefix <code><!-- TABLE-PREFIX --></code> is already in use. Please choose a different prefix to use with Symphony.' => 
-		'Il prefisso delle tabelle <code><!-- TABLE-PREFIX --></code>  gi&agrave; in uso. Scegli un prefisso diverso da usare con Symphony.',
+		'Il prefisso <code><!-- TABLE-PREFIX --></code> &egrave; gi&agrave; in uso. Scegline un altro affinch&eacute; l\'installazione possa proseguire.',
 
 		'The password and confirmation did not match. Please retype your password.' => 
-		'La password e la conferma non corrispondono. Riscrivi la tua password.',
+		'Le due password inserite non corrispondono. Assicurati che la password digitata sia la stessa in entrambi i campi.',
 
 		'This is not a valid email address. You must provide an email address since you will need it if you forget your password.' => 
-		'Questo non  un indirizzo e-mail valido. Devi fornire un indirizzo e-mail poich&eacute; ti servir&agrave; qualora dovessi dimenticare la tua password.',
+		'Devi inserire un indirizzo e-mail valido, che ti servir&agrave; qualora dovessi dimenticare la tua password.',
 
 		'You must enter a Username. This will be your Symphony login information.' => 
-		'Devi inserire un Nome utente. Questo sar&agrave; un tuo dato di accesso.',
+		'Devi inserire un nome utente valido, che ti servir&eagrave; per effetturare l\'accesso.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
-		'Devi inserire una Password. Questo sar&agrave; un tuo dato di accesso.',
+		'Devi inserire una password valida, che ti servir&eagrave; per effetturare l\'accesso.',
 
 		'You must enter your name.' => 
 		'Devi inserire il tuo nome.',
 
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
-		'Non  stata trovata Una cartella <code>/workspace</code> in questo punto. Symphony user&agrave; questo workspace.',
+		'Sembra che esista gi&agrave; una cartella <code>/workspace</code> in questa cartella. Symphony la user&agrave; come spazio di lavoro (workspace).',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, tuttavia &egrave; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto prima che l\installazione possa proseguire.',
+		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, mentre &egrave; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&eacute; l\installazione possa proseguire.',
 
 		'Website Name' => 
 		'Nome del sito',
 
 		'Environment Settings' => 
-		'Impostazioni di Sistema', /*tic*/
+		'Impostazioni di sistema',
 
 		'Symphony is ready to be installed at the following location.' => 
-		'Symphony &egrave; pronto per essere instalato nel punto seguente.',
+		'Symphony &egrave; pronto per essere installato nella cartella specificata.',
 
 		'Root Path' => 
-		'Cartella di Root',
+		'Percorso della cartella principale (root)',
 
 		'Website Preferences' => 
 		'Preferenze del sito',
@@ -1109,46 +1109,46 @@
 		'Regione',
 
 		'Date Format' => 
-		'Formato data',
+		'Formato della data',
 
 		'Time Format' => 
-		'Formato ora',
+		'Formato dell\'ora',
 
 		'Database Connection' => 
-		'Connessione database',
+		'Connessione al database',
 
 		'Please provide Symphony with access to a database.' => 
-		'Fornisci a Symphony i dati di accesso al database.',
+		'Inserisci i dati di accesso al database.',
 
 		'Database' => 
 		'Database',
 
 		'Advanced Configuration' => 
-		'Configurazione avanzata',
+		'Configurazione per esperti',
 
 		'Leave these fields unless you are sure they need to be changed.' => 
-		'Ignora questi campi a meno che tu non sia certo di come debbano essere cambiati.',
+		'Ignora questi campi a meno che tu non sia certo di come debbano essere compilati.',
 
 		'Host' => 
-		'Host',
+		false,
 
 		'Port' => 
 		'Porta',
 
 		'Table Prefix' => 
-		'Prefisso tabella',
+		'Prefisso per le tabelle',
 
 		'Use compatibility mode' => 
-		'Usa in modalit&agrave; compatibile',
+		'Abilita la modalit&agrave; compatibile',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony specifica normalmente la codifica UTF-8 per le voci del database. Con la modalit&agrave; compatibile abilitata, Symphony utilizzer&agrave;, invece, la codifica predefinita del tuo database.',
+		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&agrave; compatibile abilitata, Symphony utilizzer&agrave; invece la codifica predefinita del tuo database.',
 
 		'Permission Settings' => 
 		'Impostazioni dei permessi',
 
 		'Symphony needs permission to read and write both files and directories.' => 
-		'Symphony ha bisogno dei permessi sia di lettura che di scrittura su file e cartelle.',
+		'Symphony ha bisogno dei permessi in lettura e scrittura su file e cartelle.',
 
 		'Files' => 
 		'File',
@@ -1166,7 +1166,7 @@
 		'Informazioni personali',
 
 		'Please add the following personal details for this user.' => 
-		'Aggiungi i seguenti dati per questo utente.',
+		'Inserisci le informazioni personali per questo utente.',
 
 		'Install Symphony' => 
 		'Installa Symphony',
@@ -1175,13 +1175,13 @@
 		'Assicurati di aver cancellato <code>',
 
 		'</code> file after Symphony has installed successfully.' => 
-		'</code> dopo che Symphony sar&agrave; installata con successo.',
+		'</code> dopo che l\'installazione sar&agrave; terminata con successo.',
 
 		'Version %s' => 
 		'Versione %s',
 
 		'Outstanding Requirements' => 
-		'Requisiti aggiuntivi',
+		'Requisiti essenziali',
 
 		'Symphony needs the following requirements satisfied before installation can proceed.' => 
 		'Symphony richiede che i seguenti requisiti vengano soddisfatti prima che l\'installazione possa procedere.',
@@ -1202,7 +1202,7 @@
 		'Libreria di compressione ZLib',
 
 		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
-		'I dati prelevati dal server di supporto di Symphony vengono decompressi con la libreria di compressione ZLib.',
+		'I dati prelevati dal server di Symphony vengono decompressi con la libreria di compressione ZLib.',
 
 		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
 		'Elaboratore <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
@@ -1217,34 +1217,34 @@
 		'Aggiorna Symphony',
 
 		'You are already using the most recent version of Symphony. There is no need to run the installer, and can be safely deleted.' => 
-		'Stai gi&agrave; usando la versione p&ugrave; recente di Symphony. Non occorre avviare lo script installazione che pu&ograve; essere cancellato.',
+		'Stai gi&agrave; usando la versione p&ugrave; recente di Symphony. Puoi rimuovere il file di aggiornamento.',
 
 		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
-		'Non stai usando la versione pi&ugrave; recente di Symphony. Questo aggiornamento &egrave; compatibile solamente con Symphony 2.',
+		'Questo aggiornamento &egrave; compatibile solamente con Symphony 2.',
 
 		'Installation Failure' => 
 		'Installazione fallita',
 
 		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
-		'C\'&egrave; stato un errore durante l\'installazione. Puoi leggere il rapporto <a href="install-log.txt">qui</a> per maggiori dettagli.',
+		'Si &egrave; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
 
 		'XML returned is invalid.' => 
 		'Il codice XML restituito non &egrave; valido.',
 
 		'Error creating field object with id %1$d, for filtering in data source "%2$s". Check this field exists.' => 
-		'Errore durante la creazione dell\'elemento campo con id %1$d, per il filtraggio nella sorgente dati "%2$s". Controlla che questo campo esista.',
+		'Non &eagrave; stato possibile filtrare la sorgente dati "%2$s" tramite il campo %1$d. Assicurati che il campo esista.',
 
 		'The section associated with the data source <code>%s</code> could not be found.' => 
-		'La sezione associata con la sorgente dati <code>%s</code> non &egrave; stata trovata.',
+		'La sezione associata alla sorgente dati <code>%s</code> non &egrave; stata trovata.',
 
 		'Section is invalid' => 
-		'La sezione non &egrave; valida',
+		'La sezione specificata non &egrave; valida',
 
 		'Invalid Entry ID specified. Could not create Entry object.' => 
-		'L\'ID della voce specificato non &egrave; valido. Impossibile creare l\'oggetto Voce.',
+		'Non &eagrave; stato possibile creare la voce poich&eacute; l\'ID specificato non &egrave; valido.',
 
 		'Unknown errors where encountered when saving.' => 
-		'Ci sono stati errori sconosciuti durante il salvataggio.',
+		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
 
 		'[Symphony] A new entry was created on %s' => 
 		'[Symphony] &Egrave; stata creata una nuova voce in %s',
@@ -1253,22 +1253,22 @@
 		'Caro <!-- RECIPIENT NAME -->,',
 
 		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
-		'Questo &egrave; un messaggio e-mail di servizio per segnalarti che una voce &egrave; stata creata nella sezione %1$s. Puoi modificare la voce andando su: %2$s',
+		'Ti &egrave; stato inviato questo messaggio di servizio per segnalarti che nella sezione %1$s &egrave; stata creata una nuova voce. Puoi modificarla da qui: %2$s',
 
 		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Non &egrave; stato trovato nessun destinatario valido. Controlla il campo send-email[recipient]',
+		'Non &egrave; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
 
 		'Entry edited successfully.' => 
-		'Voce modificata con successo.',
+		'La voce &egrave; stata modificata con successo.',
 
 		'Entry created successfully.' => 
-		'Voce creata con successo.',
+		'La voce &egrave; stata creata con successo.',
 
 		'%s Allow selection of multiple authors' => 
 		'%s Consenti la selezione di pi&ugrave; autori',
 
 		'%s Select current user by default' => 
-		'%s Seleziona in automatico l\'utente corrente',
+		'%s Seleziona in automatico l\'utente connesso',
 
 		'Checkbox' => 
 		false,
@@ -1310,13 +1310,13 @@
 		'Fonti dinamiche',
 
 		'%s Allow selection of multiple options' => 
-		'%s Consenti la selezione di pi&ugrave; valori',
+		'%s Consenti la selezione di pi&ugrave; elementi',
 
 		'Tag List' => 
 		'Lista tag',
 
 		'Suggestion List' => 
-		'Fonti dei suggerimenti',
+		'Prendi spunto da',
 
 		'Existing Values' => 
 		'Valori pre-esistenti',
@@ -1325,7 +1325,7 @@
 		false,
 
 		'Make textarea %s rows tall' => 
-		'Rendi la textarea alta %s righe',
+		'Rendi il campo alto %s righe',
 
 		'File Upload' => 
 		false,
@@ -1352,19 +1352,19 @@
 		'Il file selezionato in \'%s\' &egrave; stato caricato parzialmente a causa di un errore.',
 
 		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Caricamento \'%s\' fallito. Impossibile scrivere il file temporaneo sul disco.',
+		'Il caricamento di \'%s\' &eagrave; fallito. Non &egrave; stato possibile scrivere il file temporaneo sul disco.',
 
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
-		'Caricamento \'%s\' fallito. Il caricamento del file &egrave; stato interrotto dall\'estensione.',
+		'Il caricamento di \'%s\' &eagrave; stato interrotto dall\'estensione.',
 
 		'File chosen in \'%s\' does not match allowable file types for that field.' => 
-		'Il file selezionato in \'%s\' non &egrave; del tipo ammesso per questo campo.',
+		'Il formato del file selezionato in \'%s\' non &egrave; fra quelli ammessi per questo campo.',
 
 		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
 		'Un file con il nome %1$s  gi presente in %2$s. Rinomina il file prima, oppure scegline un altro.',
 
 		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
-		'C\'&egrave; stato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
+		'Si &egrave; verificato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
 
 		'Blueprints' => 
 		'Progetto',
@@ -1417,7 +1417,7 @@
 		'Sei sicuro di voler continuare?',
 
 		'Reordering was unsuccessful.' => 
-		'Riordinamento fallito.',
+		'Il riordinamento è andato fallito.',
 
 		'Password' => 
 		'Password',
@@ -1482,6 +1482,18 @@
 	
 		// Missing translations
 
+		'Export Ensemble' =>
+		'Esporta Ensemble',
+
+		'<strong>Warning: It appears you do not have the "ZipArchive" class available. Ensure that PHP was compiled with <code>--enable-zip</code>' =>
+		'<strong>Attenzione: Sembra che la classe "ZipArchive" non sia disponibile. Assicurati che PHP sia stato compilato con l\'opzione <code>--enable-zip</code>',
+
+		'Create' =>
+		'Crea l\'archivio',
+
+		'Packages entire site as a <code>.zip</code> archive for download.' =>
+		'Comprime l\'intero sito in un pacchetto <code>.zip</code> pronto da scaricare.'
+
 		'Missing File' => 
 		'File mancante',
 
@@ -1492,7 +1504,7 @@
 		'Sembra che il file <code>install.sql</code> non esista o non abbia i permessi in lettura. Senza questo file, non &egrave; possibile popolare il database e avviare l\'installazione. Assicurati che <code>PHP</code> abbia i permessi in lettura.',
 
 		'Existing Installation' => 
-		'Installazione esistente',
+		'Installazione pre-esistente',
 
 		'Install Symphony <em>Version %s</em>' => 
 		'Installa Symphony <em>Versione %s</em>',
@@ -1514,6 +1526,15 @@
 	$dictionary += array(
 	
 		// Missing translations
+
+		'JIT Image Manipulation' =>
+		'JIT Manipolazione delle immagini "al volo"',
+
+		'Trusted Sites' =>
+		'Siti fidati',
+
+		'Leave empty to disable external linking. Single rule per line. Add * at end for wild card matching.' =>
+		'Lascia vuoto questo campo se vuoi rendere visibili le immagini solo su questo sito. Per ogni riga va un solo indirizzo. Il carattere "*" sta per "ogni".'
 
 		'Error reading external image <code>%s</code>. Please check the URI.' => 
 		'Si &egrave; verificato un errore durante la lettura dell\'immagine <code>%s</code>. Controlla l\'indirizzo (URI).',
@@ -1611,8 +1632,20 @@
 
 		// Missing translations
 
+		'Website Offline' =>
+		'Lavori in corso',
+
+		'This site is currently in maintenance. Please check back at a later date.' =>
+		'Il sito è attualmente in manutenzione.'
+
 		'This site is currently in maintenance mode. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Restore?</a>' => 
 		'Il sito è attualmente in manutenzione. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Vuoi renderlo visibile?</a>',
+
+		'Maintenance Mode' =>
+		'Modalit&agrave; manutenzione',
+
+		'Maintenance mode will redirect all visitors, other than developers, to the specified maintenance page.' =>
+		'La modalit&agrave; manutenzione reindirizzer&agrave; tutti i visitatori alla pagina di manutenzione. Per specificare tale pagina, assicurati che sia di tipo <code>maintenance</code>.'
 
 	);
 	
@@ -1687,7 +1720,7 @@
 		// Missing translations
 
 		'Select Box Link' => 
-		false,
+		'Giunzione fra sezioni',
 
 		'Options' => 
 		'Fonti',
@@ -1696,7 +1729,7 @@
 		'Limita alle %s voci più recenti',
 
 		'Allow selection of multiple options' => 
-		'Consenti la selezione di pi&ugrave; valori',
+		'Consenti la selezione di pi&ugrave; elementi',
 
 	);
 	
