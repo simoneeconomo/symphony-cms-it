@@ -20,7 +20,7 @@
 		// Missing translations
 
 		'A database error occurred while attempting to reorder.' => 
-		'Si &egrave; verificato un errore nel database durante il riordinamento.',
+		'Il riordinamento &egrave; andato fallito a causa di un errore nel database.',
 
 		'%1$s &ndash; %2$s' => 
 		false,
@@ -116,7 +116,7 @@
 		'Filtri',
 
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
-		'La sintassi <code>{$param}</code> ti permette di usare i Parametri URL di una pagina come valore.',
+		'La sintassi <code>{$parametro}</code> ti permette di usare i Parametri URL di una pagina come filtro.',
 
 		'Filter %s by' => 
 		'Filtra %s per',
@@ -161,7 +161,7 @@
 		'Ordinamento e limitazioni',
 
 		'Use <code>{$param}</code> syntax to limit by page parameters.' => 
-		'La sintassi <code>{$param}</code> ti permette di usare i Parametri URL di una pagina come valore.',
+		'La sintassi <code>{$parametro}</code> ti permette di usare i Parametri URL di una pagina come filtro.',
 
 		'Sort By' => 
 		'Ordina per',
@@ -560,7 +560,7 @@
 		'Sezione creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
 
 		'Navigation Group <i>Choose only one. Created if does not exist</i>' => 
-		'Gruppo di navigazione <i>Scegline solo uno. Se non esiste, verr&agrave; creato</i>',
+		'Gruppo di navigazione <i>Puoi inserirne solo uno. Se non esiste, verr&agrave; creato</i>',
 
 		'Delete this section' =>
 		'Elimina questa sezione',
@@ -776,7 +776,7 @@
 		'Versione',
 
 		'Yes' => 
-		'Sì',
+		'S&igrave;',
 
 		'No' => 
 		'No',
@@ -794,7 +794,7 @@
 		'Preferenze',
 
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		'Il file di configurazione di Symphony <code>/manifest/config.php</code> non ha i permessi in scrittura, pertanto non sar&agrave; possibile salvare eventuali cambiamenti alle impostazioni.',
+		'Il file di configurazione di Symphony, <code>/manifest/config.php</code>, non ha i permessi in scrittura, pertanto non sar&agrave; possibile salvare eventuali cambiamenti alle impostazioni.',
 
 		'Preferences saved.' => 
 		'Preferenze salvate.',
@@ -1007,7 +1007,7 @@
 		'Pirati',
 
 		'Aardvarks' => 
-		'Ornitorinchi', // !
+		'Ornitorinchi',
 
 		'Men' => 
 		'Uomini',
@@ -1250,7 +1250,7 @@
 		'[Symphony] &Egrave; stata creata una nuova voce in %s',
 
 		'Dear <!-- RECIPIENT NAME -->,' => 
-		'Caro <!-- RECIPIENT NAME -->,',
+		'Ciao <!-- RECIPIENT NAME -->,',
 
 		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
 		'Ti &egrave; stato inviato questo messaggio di servizio per segnalarti che nella sezione %1$s &egrave; stata creata una nuova voce. Puoi modificarla da qui: %2$s',
@@ -1271,7 +1271,7 @@
 		'%s Seleziona in automatico l\'utente connesso',
 
 		'Checkbox' => 
-		false,
+		'Casella di spunta',
 
 		'Long Description <i>Optional</i>' => 
 		'Descrizione <i>Opzionale</i>',
@@ -1280,7 +1280,7 @@
 		'%s Selezionato in automatico',
 
 		'Date' => 
-		'Data',
+		'Data/Ora',
 
 		'The date specified in \'%s\' is invalid.' => 
 		'La data specficata in \'%s\' non &egrave; valida.',
@@ -1298,7 +1298,7 @@
 		'"%1$s" contiene XML non valido. L\'errore segnalato &egrave; il seguente: <code>%2$s</code>',
 
 		'Select Box' => 
-		false,
+		'Men&ugrave; a tendina',
 
 		'At least one source must be specified, dynamic or static.' => 
 		'&Egrave; necessario specificare almeno una fonte.',
@@ -1369,7 +1369,10 @@
 		'Blueprints' => 
 		'Progetto',
 
-		// Compatibility mode (Symphony 2.0.6)
+		'Text Formatter' =>
+		'Formattazione dei testi',
+
+		// Compatibility mode (for Symphony 2.0.6)
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' =>
 		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
@@ -1492,7 +1495,7 @@
 		'Crea l\'archivio',
 
 		'Packages entire site as a <code>.zip</code> archive for download.' =>
-		'Comprime l\'intero sito in un pacchetto <code>.zip</code> pronto da scaricare.'
+		'Comprime l\'intero sito in un pacchetto <code>.zip</code> pronto da scaricare.',
 
 		'Missing File' => 
 		'File mancante',
@@ -1534,7 +1537,7 @@
 		'Siti fidati',
 
 		'Leave empty to disable external linking. Single rule per line. Add * at end for wild card matching.' =>
-		'Lascia vuoto questo campo se vuoi rendere visibili le immagini solo su questo sito. Per ogni riga va un solo indirizzo. Il carattere "*" sta per "ogni".'
+		'Lascia vuoto questo campo se vuoi rendere visibili le immagini solo sul tuo sito. Per ogni riga va un solo indirizzo. Il carattere "*" sta per "ogni".',
 
 		'Error reading external image <code>%s</code>. Please check the URI.' => 
 		'Si &egrave; verificato un errore durante la lettura dell\'immagine <code>%s</code>. Controlla l\'indirizzo (URI).',
@@ -1603,7 +1606,7 @@
 		'ad es. it, fr',
 
 		'If you enter details of an already existing language, your download will contain all current strings highlighting missing ones. <br />If you leave all fields blank, a clean, untranslated language file will be returned.' => 
-		'Se il file di lingua &egrave; gi&agrave; esistente, il download conterrà le attuali stringhe pi&ugrave; quelle mancanti in evidenza. <br />Se lasci tutti i campi vuoti, verr&agrave; generato un nuovo file di lingua non tradotto.',
+		'Se il file di lingua &egrave; gi&agrave; esistente, il download conterrà le stringhe pre-esistenti pi&ugrave; quelle mancanti. <br />Se lasci tutti i campi vuoti, verr&agrave; generato un nuovo file di lingua non tradotto.',
 
 		'Download Language File' => 
 		'Scarica il file di lingua',
@@ -1636,7 +1639,7 @@
 		'Lavori in corso',
 
 		'This site is currently in maintenance. Please check back at a later date.' =>
-		'Il sito è attualmente in manutenzione.'
+		'Il sito è attualmente in manutenzione.',
 
 		'This site is currently in maintenance mode. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Restore?</a>' => 
 		'Il sito è attualmente in manutenzione. <a href="%s/symphony/system/preferences/?action=toggle-maintenance-mode&amp;redirect=%s">Vuoi renderlo visibile?</a>',
@@ -1659,20 +1662,44 @@
 	
 		// Missing translations
 
+		'Edit' =>
+		'Amministrazione',
+
 		'Profile' => 
-		'Profilazione',
+		'Prestazioni',
 
 		'General Details' => 
-		'Dettagli generali',
+		'Resoconto',
+
+		'Engine Initialisation' =>
+		'Inizializzazione del sistema',
+
+		'Page creation process started' =>
+		'Avvio costruzione pagina',
+
+		'XML Built' =>
+		'Costruzione dell\'albero XML',
+
+		'XML Generation' =>
+		'Elaborazione dell\'albero XML',
+
+		'Page Built' =>
+		'Elaborazione della pagina',
+
+		'XSLT Transformation' =>
+		'Elaborazione XSLT',
+
+		'Page creation complete' =>
+		'Fine costruzione pagina',
 
 		'Datasource Execution' => 
-		'Esecuzione delle sorgenti dati',
+		'Sorgenti dati',
 
 		'Event Execution' => 
 		'Esecuzione degli eventi',
 
 		'Full Page Render Statistics' => 
-		'Statistiche di resa della pagina',
+		'Statistiche',
 
 		'Memory Usage' => 
 		'Impiego di memoria',
@@ -1681,19 +1708,19 @@
 		'Dettagli sulle query pi&ugrave; lente',
 
 		'Total Database Queries' => 
-		'Query totali',
+		'Interrogazioni totali al database',
 
 		'Slow Queries (> 0.09s)' => 
 		'Query pi&ugrave; lente (> 0.09s)',
 
 		'Total Time Spent on Queries' => 
-		'Tempo totale impiegato dalle query',
+		'Tempo totale delle interrogazioni',
 
 		'Time Triggering All Events' => 
-		'Tempo di avvio di tutti gli eventi',
+		'Tempo totale d\'esecuzione degli eventi',
 
 		'Time Running All Data Sources' => 
-		'Tempo di esecuzione di tutte le sorgenti dati',
+		'Tempo totale d\'esecuzione delle sorgenti dati',
 
 		'XML Generation Function' => 
 		'Funzione generatrice dell\'albero XML',
