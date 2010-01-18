@@ -200,7 +200,7 @@
 		'Mostra la pagina %s dei risultati',
 
 		'Required URL Parameter <i>Optional</i>' => 
-		'Parametro URL associato <i>opzionale</i>',
+		'Parametro URL associato <i>Facoltativo</i>',
 
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
 		'Non includere le parentesi graffe. Se il parametro non ha alcun valore, non verr&agrave; restituito alcun risultato.' ,
@@ -239,7 +239,7 @@
 		'Autore',
 
 		'Included Elements' => 
-		'Elementi da includere',
+		'Filtro',
 
 		'%s Include a count of entries in associated sections' => 
 		'%s includi il conteggio delle voci presenti in questa sezione',
@@ -254,7 +254,7 @@
 		'La sintassi <code>{$param}</code> ti permette di usare i parametri URL di una pagina come valore.',
 
 		'Namespace Declarations <i>Optional</i>' => 
-		'Namespace da dichiarare <i>opzionale</i>',
+		'Namespace da dichiarare <i>Facoltativo</i>',
 
 		'URI' => 
 		false,
@@ -264,6 +264,9 @@
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
 		'Puoi usare un\'espressione XPath per scegliere quali elementi estrarre dall\'albero XML.',
+
+		'Update cached result every %s minutes' =>
+		'Aggiorna i risultati in cache ogni %s minuti',
 
 		'Body' => 
 		'Corpo',
@@ -392,7 +395,7 @@
 		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &egrave; compatibile con l\'opzione "Consenti l\'invio di pi&ugrave; voci".</b> Di seguito i campi riconosciuti:',
 
 		'Optional' => 
-		'Opzionale',
+		'Facoltativo',
 
 		'list of comma author usernames.' => 
 		'lista degli autori separati da virgola',
@@ -929,7 +932,7 @@
 		'Formattazione',
 
 		'Validation Rule <i>Optional</i>' => 
-		'Formato <i>Opzionale</i>',
+		'Formato <i>Facoltativo</i>',
 
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Il campo <code>%s</code> non permette di raggruppare l\'output proveniente dalle sorgenti dati',
@@ -1274,7 +1277,7 @@
 		'Casella di spunta',
 
 		'Long Description <i>Optional</i>' => 
-		'Descrizione <i>Opzionale</i>',
+		'Descrizione <i>Facoltativa</i>',
 
 		'%s Checked by default' => 
 		'%s Selezionato in automatico',
