@@ -254,7 +254,7 @@
 		'La sintassi <code>{$param}</code> ti permette di usare i parametri URL di una pagina come valore.',
 
 		'Namespace Declarations <i>Optional</i>' => 
-		'Namespace da dichiarare <i>Facoltativo</i>',
+		'Namespace aggiuntivi <i>Facoltativo</i>',
 
 		'URI' => 
 		false,
