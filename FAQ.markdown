@@ -10,8 +10,8 @@ Innanzi tutto, quali parti dell'interfaccia sono ancora in inglese?
 
 Prima di procedere, controlla di star utilizzando la versione del Localisation Manager più adatta alla tua copia di Symphony.
 
-* se usi Symphony v2.0.6 o minore: Localisation Manager v[1.0.2](http://github.com/nilshoerrmann/localisationmanager/tree/1.0.2)
-* se usi Symphony v2.0.7: [1.1](http://github.com/nilshoerrmann/localisationmanager)
+* se usi Symphony v2.0.6 o minore: Localisation Manager v**[1.0.2](http://github.com/nilshoerrmann/localisationmanager/tree/1.0.2)**
+* se usi Symphony v2.0.7: Localisation Manager v**[1.1](http://github.com/nilshoerrmann/localisationmanager)**
 
 Se stai usando una versione del *Localisation Manager* che ***non*** corrisponde a quella suggerita per la tua versione di Symphony, assicurati di:
 
