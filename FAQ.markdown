@@ -1,6 +1,6 @@
 ## FAQ: Risposte alle domande frequenti
 
-*Nota*: Dal momento che Symphony 2.0.7 è in fase stabile, il 90% di queste FAQ non è più necessario. Molte delle informazioni contenute in questa pagina non sono più vere pertanto usatele con cautela!
+**Nota**: Dal momento che Symphony 2.0.7 è in fase stabile, il 90% di queste FAQ non è più necessario. Molte delle informazioni contenute in questa pagina non sono più vere pertanto usatele con cautela!
 
 ### 1. La traduzione non funziona, l'interfaccia è ancora in inglese. Perché?
 
@@ -12,11 +12,6 @@ Prima di procedere, controlla di star utilizzando la versione del Localisation M
 
 * se usi Symphony v2.0.6 o minore: Localisation Manager v[1.0.2](http://github.com/nilshoerrmann/localisationmanager/tree/1.0.2)
 * se usi Symphony v2.0.7: [1.1](http://github.com/nilshoerrmann/localisationmanager)
-
-Versione di Symphony  | Versione del Localisation Manager
---------------------  | -----------------------------------
-2.0.7 (beta)          | [1.1](http://github.com/nilshoerrmann/localisationmanager)
-2.0.6 o minore        | [1.0.2](http://github.com/nilshoerrmann/localisationmanager/tree/1.0.2)
 
 Se stai usando una versione del *Localisation Manager* che ***non*** corrisponde a quella suggerita per la tua versione di Symphony, assicurati di:
 
