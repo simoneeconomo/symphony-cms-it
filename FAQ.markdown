@@ -1,6 +1,6 @@
 ## FAQ: Risposte alle domande frequenti
 
-**Note**: English FAQs are coming soon.
+*Nota*: Dal momento che Symphony 2.0.7 è in fase stabile, il 90% di queste FAQ non è più necessario. Molte delle informazioni contenute in questa pagina non sono più vere pertanto usatele con cautela!
 
 ### 1. La traduzione non funziona, l'interfaccia è ancora in inglese. Perché?
 
@@ -9,6 +9,9 @@ Innanzi tutto, quali parti dell'interfaccia sono ancora in inglese?
 **1° caso**: Se si tratta del menù di navigazione (per intenderci: "*Content*", "*Blueprints*", "*System*"), probabilmente sei incappato in un [problema di compatibilità](http://symphony-cms.com/discuss/thread/29602/4/#position-67) con l'estensione "[Localisation Manager](http://symphony-cms.com/download/extensions/view/29645/)".
 
 Prima di procedere, controlla di star utilizzando la versione del Localisation Manager più adatta alla tua copia di Symphony.
+
+* se usi Symphony v2.0.6 o minore: Localisation Manager v[1.0.2](http://github.com/nilshoerrmann/localisationmanager/tree/1.0.2)
+* se usi Symphony v2.0.7: [1.1](http://github.com/nilshoerrmann/localisationmanager)
 
 Versione di Symphony  | Versione del Localisation Manager
 --------------------  | -----------------------------------
