@@ -1,23 +1,22 @@
 <?php
 
 	$about = array(
-		'name' => 'Italiano (Italy)',
+		'name' => 'Italiano',
 		'author' => array(
-			'name' => 'Simone \'eKoeS\' Economo, Davide Crivelli, Antonio \'puleddu\' Piu, Mario',
+			'name' => 'Simone Economo, Davide Crivelli, Antonio Piu, Mario Butera',
 			'email' => 'my.ekoes@gmail.com, da.crivelli@gmail.com, antonio.piu@gmail.com, buteram@gmail.com',
+			'website' => 'http://groups.google.com/group/symphony-cms-it',
 		),
-		'release-date' => '2009-11-22', // To be edited
+		'release-date' => '2010-02-25',
 	);
 
 
-	/*
-	 * CORE: Symphony
-	 * Localisation strings
+	/**
+	 * Symphony Core
 	 */
-
 	$dictionary = array(
 
-		// Missing translations
+		// Missing
 
 		'A database error occurred while attempting to reorder.' => 
 		'Il riordinamento &egrave; andato fallito a causa di un errore nel database.',
@@ -224,7 +223,7 @@
 		'Tipologia di utente',
 
 		'System Author' => 
-		'Autore di sistema',
+		'Amministratore',
 
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
 		'Verr&agrave; creato un nuovo parametro <code id="output-param-name">$ds-%s</code> che potrà essere utilizzato nei template XSLT o in altre sorgenti dati.',
@@ -752,7 +751,7 @@
 		'Sezione da mostrare all\'accesso',
 
 		'Create Author' => 
-		'Crea profilo',
+		'Crea il profilo',
 
 		'Delete this author' => 
 		'Elimina questo profilo',
